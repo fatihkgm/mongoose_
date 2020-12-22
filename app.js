@@ -76,13 +76,13 @@ Fruit.find(function(err,fruits){
   
 // });
 
-Person.deleteMany({name:"Fatih"},function (err){
-  if (err){
-    console.log(err);
-  }else{
-    console.log("DELETED >>>>")
-  }
-})
+// Person.deleteMany({name:"Fatih"},function (err){
+//   if (err){
+//     console.log(err);
+//   }else{
+//     console.log("DELETED >>>>")
+//   }
+// })
 
 
 
