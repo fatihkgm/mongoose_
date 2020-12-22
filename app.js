@@ -62,9 +62,30 @@ Fruit.find(function(err,fruits){
 
     fruits.forEach(function(fruit){
       console.log(fruit.name);
+      console.log(fruit);
     });
   }
 });
+
+// Fruit.updateOne({_id: "5fe141c81cab419413230b6f"}, {name:"Peach"},function(err){
+//   if(err){
+//     console.log(err);
+//   }else{
+//     console.log("@@@@@@@@@@@@updated");
+//   }
+  
+// });
+
+Person.deleteMany({name:"Fatih"},function (err){
+  if (err){
+    console.log(err);
+  }else{
+    console.log("DELETED >>>>")
+  }
+})
+
+
+
 
   // const findDocuments = function(db, callback) {
   //   // Get the documents collection
